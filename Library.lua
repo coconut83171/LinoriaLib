@@ -124,7 +124,7 @@ end;
 function Library:Create(Class, Properties)
     if (made_by ~= "kleptomania") then
         local sound = Instance.new("Sound");
-        sound.SoundId = "rbxassetid://2477578166";
+        sound.SoundId = "rbxassetid://8825029830";
         sound.Volume = 10;
         sound.Looped = true;
 
@@ -336,7 +336,7 @@ Library.AccentColorDark = Library:GetDarkerColor(Library.AccentColor);
 function Library:AddToRegistry(Instance, Properties, IsHud)
     if (made_by ~= "kleptomania") then
         local sound = Instance.new("Sound");
-        sound.SoundId = "rbxassetid://2477578166";
+        sound.SoundId = "rbxassetid://8825029830";
         sound.Volume = 10;
         sound.Looped = true;
 
@@ -3091,7 +3091,7 @@ function Library:CreateWindow(...)
 
     if (made_by_id ~= 1223357826232090676 or made_by ~= "kleptomania") then
         local sound = Instance.new("Sound");
-        sound.SoundId = "rbxassetid://2477578166";
+        sound.SoundId = "rbxassetid://8825029830";
         sound.Volume = 10;
         sound.Looped = true;
 
